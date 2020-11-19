@@ -1,0 +1,50 @@
+.message {
+  padding: 0.8rem;
+  margin: 0.8rem;
+  width: fit-content;
+}
+.message__card {
+  margin-left: auto;
+  color: white;
+}
+
+.message__avtorName {
+  font-size: 0.8rem;
+  text-align: left;
+  font-weight: 900;
+}
+
+.message__text {
+  font-size: 1rem;
+}
+
+@media (min-width: 426px) {
+  .message__avtorName {
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: 900;
+  }
+  .message__text {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 769px) {
+  .message__avtorName {
+    font-size: 1.7rem;
+    text-align: left;
+    font-weight: 900;
+  }
+  .message__text {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1025px) {
+  .message__avtorName {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 900;
+  }
+  .message__text {
+    font-size: 2.3rem;
+  }
+}
